@@ -1,39 +1,34 @@
-class Customer(object):
-    def __init__():
-        print("customer")
+import time
 
-#    def __init__(self, name, color):
-#            """
-#            Initializes a new player with the given name and color.
-#
-#            For example :
-#
-#              player = Player("Matti", Player.BLACK)
-#
-#            @param name: player's name as a string
-#            @param color: player's color as a class constant
-#            """
-#            ## Underscore means, that the variable should not be touched from outside this class
-#            self._name = name
-#            self._set_color( color )
-#
-#
-#
-#    def get_name(self):
-#        """
-#        Returns the name of the player.
-#
-#        @return: The name of this player.
-#        """
-#        return self._name
-#
-#
-#    def get_color(self):
-#        """
-#        Returns the color of this player.
-#
-#        @return: the color of this player.
-#        """
-#        return self._color
-#    name = property( get_name )
-#    color = property( get_color )
+class Customer():
+    def __init__(self, name, phone):
+        self.name = name
+        self.phone = phone
+
+
+    def get_customer_list():
+        customer_list = []
+        return customer_list
+
+    def fedge_customer(customer_list):
+        name = str(input("\tPlease input your full name:\n\t"))
+        for customer in customer_list:
+            if customer.name == name:
+                return customer
+        print("\n\tWelcome new customer, please input your phone number:\n\t")
+        phone = str(input("\t"))
+        while len(phone) < 9 or len(phone) > 15:
+            phone = str(input("\tPlease input valid phone number:\n\t"))
+        new_customer = Customer(name, phone)
+        customer_list.append(new_customer)
+        return new_customer
+
+    def get_customer_info(customer):
+        return customer.name, customer.phone
+
+
+    def print_customers(customer_list):
+        print("\tCustomers at Hotel Kaarl:\n\n")
+        for customer in customer_list:
+            print("\tName: {:25s} Phone number: {:15s}\n\n".format(customer.name, customer.phone))
+        time.sleep(4)

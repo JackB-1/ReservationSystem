@@ -4,7 +4,6 @@ from file import File
 import time
 
 class Home():
-
     customer_list = []
     Rooms = Schedule()
     call = ""

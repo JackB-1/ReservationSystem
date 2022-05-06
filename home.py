@@ -39,9 +39,8 @@ class Home():
         elif call == "4":
             customer_list1, customer_names, customer_phones, Rooms1 = File.load_file()
             customer_list = Reservation.create_customers_from_lists(customer_names, customer_phones)
-            print("Customer_list made.")
             Rooms = File.final_load(customer_list, customer_list1, Rooms1)
-            print("File successfully loaded.")
+            print("\tFile successfully loaded.\n")
         elif call == "5":
             customer_names, customer_phones = Reservation.make_customer_lists(customer_list)
             File.save_file(customer_list, customer_names, customer_phones, Rooms)

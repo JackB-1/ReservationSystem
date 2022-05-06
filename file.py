@@ -33,7 +33,7 @@ class File():
             for objekt in Rooms.CustomersRoom3:
                 file.write(str(objekt) + "\n")
             file.write("CUSTOM3\n")
-        print("File successfully saved.\n")
+        print("\tFile successfully saved.\n")
 
     def load_file():
         loaded_list = []
@@ -64,12 +64,10 @@ class File():
                 elif line == "END2\n":
                     counter +=1
                 elif line != "ROOM1\n" and counter == 3:
-                    print("rooms" + line)
                     room1.append(str(line.strip("\n")))
                 elif line == "ROOM1\n":
                     counter +=1
                 elif line != "ROOM2\n" and counter == 4:
-                    print("rooms" + line)
                     room2.append(str(line.strip("\n")))
                 elif line == "ROOM2\n":
                     counter +=1
@@ -78,12 +76,10 @@ class File():
                 elif line == "ROOM3\n":
                     counter +=1
                 elif line != "CUSTOM1\n" and counter == 6:
-                    print("cutoms" + line)
                     custom1.append(str(line.strip("\n")))
                 elif line == "CUSTOM1\n":
                     counter +=1
                 elif line != "CUSTOM2\n" and counter == 7:
-                    print("cutoms" + line)
                     custom2.append(str(line.strip("\n")))
                 elif line == "CUSTOM2\n":
                     counter +=1

@@ -1,0 +1,61 @@
+<customer.Customer object at 0x000002926A9C3FA0>
+<customer.Customer object at 0x000002926A9C31C0>
+<customer.Customer object at 0x000002926A9C3D00>
+<customer.Customer object at 0x000002926A9DF430>
+<customer.Customer object at 0x000002926A9DF1F0>
+<customer.Customer object at 0x000002926A9DF490>
+<customer.Customer object at 0x000002926A9DF520>
+<customer.Customer object at 0x000002926A9DF550>
+<customer.Customer object at 0x000002926A9DF5E0>
+<customer.Customer object at 0x000002926A9DF670>
+END0
+Teemu Teekkari
+Ville Vappu
+Pekka Poliisi
+Jasper
+Jack
+Donald Trump
+Barack Obama
+Hillary Clinton
+Tiina Testari
+Herra Jaakko
+END1
+0505592946
+0505654789
+02024587965
+0252525255
+0505590940
+1234567890
+0147258369
+5623147890
+05045678912
+0404651235
+END2
+2022.11.11
+2023.4.5
+2025.9.9
+2022.6.26
+2024.9.19
+2022.4.4
+ROOM1
+2022.11.11
+2025.9.9
+2024.9.19
+ROOM2
+2022.11.11
+2024.9.19
+ROOM3
+<customer.Customer object at 0x000002926A9C3FA0>
+<customer.Customer object at 0x000002926A9C3FA0>
+<customer.Customer object at 0x000002926A9C3D00>
+<customer.Customer object at 0x000002926A9DF1F0>
+<customer.Customer object at 0x000002926A9DF490>
+<customer.Customer object at 0x000002926A9DF5E0>
+CUSTOM1
+<customer.Customer object at 0x000002926A9C31C0>
+<customer.Customer object at 0x000002926A9DF430>
+<customer.Customer object at 0x000002926A9DF520>
+CUSTOM2
+<customer.Customer object at 0x000002926A9C3D00>
+<customer.Customer object at 0x000002926A9DF550>
+CUSTOM3

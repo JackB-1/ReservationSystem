@@ -25,8 +25,21 @@ class Reservation():
         return booking_customer, reservation_date
 
         
-    def make_customer_list():
+    def make_customer_lists(customer_list):
+        namelist = []
+        phonelist = []
+        for i in range(len(customer_list)):
+            customer = customer_list[i]
+            name, phone = Customer.get_customer_info(customer)
+            namelist.append(name)
+            phonelist.append(phone)
+        return namelist, phonelist
+
+    def create_customers_from_lists(customer_names, customer_phones):
         customer_list = []
+        for i in range(len(customer_names)):
+            customer = Customer(customer_names[i], customer_phones[i])
+            customer_list.append(customer)
         return customer_list
 
     def print_customers(customer_list):

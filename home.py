@@ -1,10 +1,11 @@
 from reservation import Reservation
 from schedule import *
-
+from file import File
 import time
 
 class Home():
-    customer_list = Reservation.make_customer_list()
+
+    customer_list = []
     Rooms = Schedule()
     call = ""
     while call != "0":
@@ -13,6 +14,8 @@ class Home():
         print("\t 1 Booking\n")
         print("\t 2 Customers\n")
         print("\t 3 Record\n")
+        print("\t 4 Load file\n")
+        print("\t 5 Save file\n")
         print("\t 0 Exit\n")
         call = input("\tPlease choose from our menu the option that suits you best:\n\t")
         if call == "1":
@@ -34,11 +37,15 @@ class Home():
             Reservation.print_customers(customer_list)
         elif call == "3":
             Schedule.print_schedule(Rooms)
-        elif call == "0":
-            exit()
+        elif call == "4":
+            customer_list1, customer_names, customer_phones, Rooms1 = File.load_file()
+            customer_list = Reservation.create_customers_from_lists(customer_names, customer_phones)
+            print("Customer_list made.")
+            Rooms = File.final_load(customer_list, customer_list1, Rooms1)
+            print("File successfully loaded.")
+        elif call == "5":
+            customer_names, customer_phones = Reservation.make_customer_lists(customer_list)
+            File.save_file(customer_list, customer_names, customer_phones, Rooms)
+    print("\n\tThank you for choosing HOTEL KAARL, welcome back!\n")
 
 
-
-
-
-Home()

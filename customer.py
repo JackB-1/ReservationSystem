@@ -6,12 +6,10 @@ class Customer():
         self.phone = phone
 
 
-    def get_customer_list():
-        customer_list = []
-        return customer_list
-
     def fedge_customer(customer_list):
         name = str(input("\tPlease input your full name:\n\t"))
+        while len(name) < 1:
+            name = str(input("\tPlease input your full name:\n\t"))
         for customer in customer_list:
             if customer.name == name:
                 return customer

@@ -35,15 +35,15 @@ class Schedule:
         print("\t{:12s}  {:25s}\n".format("Booked date", "Customer"))
         for i in range(len(Rooms.Reservations1)):
             customer_name, customer_phone = Customer.get_customer_info(Rooms.CustomersRoom1[i])
-            print("\t{:12s}  {:25s}\n".format(Rooms.Reservations1[i], customer_name))
+            print("\t{:12}  {:25s}\n".format(Rooms.Reservations1[i], customer_name))
         print("\n\tRoom 2 dates reserved:\n\n")
         print("\t{:12s}  {:25s}\n".format("Booked date", "Customer"))
         for i in range(len(Rooms.Reservations2)):
             customer_name, customer_phone = Customer.get_customer_info(Rooms.CustomersRoom2[i])
-            print("\t{:12s}  {:25s}\n".format(Rooms.Reservations2[i], customer_name))
+            print("\t{:12}  {:25s}\n".format(Rooms.Reservations2[i], customer_name))
         print("\n\tRoom 3 dates reserved:\n\n")
         print("\t{:12s}  {:25s}\n".format("Booked date", "Customer"))
         for i in range(len(Rooms.Reservations3)):
             customer_name, customer_phone = Customer.get_customer_info(Rooms.CustomersRoom3[i])
-            print("\t{:12s}  {:25s}\n".format(Rooms.Reservations3[i], customer_name))
+            print("\t{:12}  {:25s}\n".format(Rooms.Reservations3[i], customer_name))
         time.sleep(7)

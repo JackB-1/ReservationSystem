@@ -1,0 +1,29 @@
+<customer.Customer object at 0x0000023E653169D0>
+<customer.Customer object at 0x0000023E65316490>
+<customer.Customer object at 0x0000023E653161C0>
+<customer.Customer object at 0x0000023E653164F0>
+END0
+Jac
+earh
+aerhaejtr
+Paaat
+END1
+1351654894
+654868661
+651198189
+1234657893
+END2
+2022.11.11
+2022.2.2
+ROOM1
+2022.11.11
+ROOM2
+2022.11.11
+ROOM3
+<customer.Customer object at 0x0000023E653169D0>
+<customer.Customer object at 0x0000023E653164F0>
+CUSTOM1
+<customer.Customer object at 0x0000023E65316490>
+CUSTOM2
+<customer.Customer object at 0x0000023E653161C0>
+CUSTOM3

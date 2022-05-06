@@ -1,33 +1,53 @@
-<customer.Customer object at 0x000001B7A3E92640>
-<customer.Customer object at 0x000001B7A3E92D60>
-<customer.Customer object at 0x000001B7A3E92D30>
-<customer.Customer object at 0x000001B7A3E92C70>
+<customer.Customer object at 0x000001AE8C4B4F10>
+<customer.Customer object at 0x000001AE8C4B41C0>
+<customer.Customer object at 0x000001AE8C4B4B80>
+<customer.Customer object at 0x000001AE8C4CC370>
+<customer.Customer object at 0x000001AE8C4CC4F0>
+<customer.Customer object at 0x000001AE8C4CC520>
+<customer.Customer object at 0x000001AE8C4CC400>
+<customer.Customer object at 0x000001AE8C4CC580>
 END0
 Teemu Teekkari
 Ville Vappu
 Pekka Poliisi
 Jasper
+Jack
+Donald Trump
+Barack Obama
+Hillary Clinton
 END1
 0505592946
 0505654789
 02024587965
 0252525255
+0505590940
+1234567890
+0147258369
+5623147890
 END2
 2022.11.11
 2023.4.5
 2025.9.9
+2022.6.26
+2024.9.19
 ROOM1
 2022.11.11
 2025.9.9
+2024.9.19
 ROOM2
 2022.11.11
+2024.9.19
 ROOM3
-<customer.Customer object at 0x000001B7A3E92640>
-<customer.Customer object at 0x000001B7A3E92640>
-<customer.Customer object at 0x000001B7A3E92D30>
+<customer.Customer object at 0x000001AE8C4B4F10>
+<customer.Customer object at 0x000001AE8C4B4F10>
+<customer.Customer object at 0x000001AE8C4B4B80>
+<customer.Customer object at 0x000001AE8C4CC4F0>
+<customer.Customer object at 0x000001AE8C4CC520>
 CUSTOM1
-<customer.Customer object at 0x000001B7A3E92D60>
-<customer.Customer object at 0x000001B7A3E92C70>
+<customer.Customer object at 0x000001AE8C4B41C0>
+<customer.Customer object at 0x000001AE8C4CC370>
+<customer.Customer object at 0x000001AE8C4CC400>
 CUSTOM2
-<customer.Customer object at 0x000001B7A3E92D30>
+<customer.Customer object at 0x000001AE8C4B4B80>
+<customer.Customer object at 0x000001AE8C4CC580>
 CUSTOM3
